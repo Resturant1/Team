@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Booking - Restaurant II</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Restaurant II</h1>
+      <p>Cunto macaan & adeeg heer sare ah</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="service.html">Service</a>
+    <a href="booking.html">Booking</a>
+  </nav>
+
+  <!-- Booking Form -->
+  <section class="about" style="padding: 2rem; max-width: 700px; margin: auto;">
+    <h2 style="text-align: center; margin-bottom: 1rem; color: #e63946;">Foomka Dalabka</h2>
+    <form action="#" method="post" style="display: grid; gap: 1rem;">
+
+      <div>
+        <label for="name">Magaca:</label>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem;" />
+      </div>
+
+      <div>
+        <label>Jinsiga:</label><br/>
+        <input type="radio" id="male" name="gender" value="Male" required />
+        <label for="male">Lab</label>
+        <input type="radio" id="female" name="gender" value="Female" required />
+        <label for="female">Dheddig</label>
+      </div>
+
+      <div>
+        <label for="date">Taariikhda:</label>
+        <input type="date" id="date" name="date" required style="width: 100%; padding: 0.5rem;" />
+      </div>
+
+      <div>
+        <label for="time">Saacadda:</label>
+        <input type="time" id="time" name="time" required style="width: 100%; padding: 0.5rem;" />
+      </div>
+
+      <div>
+        <label for="meal">Cuntada La Dalbanayo:</label>
+        <select id="meal" name="meal" required style="width: 100%; padding: 0.5rem;">
+          <option value="">-- Dooro --</option>
+          <option value="Bariis Hilib">Bariis Hilib</option>
+          <option value="Baasto Kalun">Baasto Kaluun</option>
+          <option value="Canjeero iyo Malab">Canjeero & Malab</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn" style="background-color: #e63946; color: white; padding: 0.6rem; border: none; border-radius: 6px;">
+        Dalbo Hadda
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Restaurant II. All rights reserved.</p>
+      <p>Email: info@restaurantii.com | Tel: +252 61 2345678</p>
+    </div>
+  </footer>
+
+</body>
+</html>
